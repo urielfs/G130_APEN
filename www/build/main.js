@@ -388,19 +388,19 @@ var map = {
 		6
 	],
 	"../pages/inicio/inicio.module": [
-		289,
+		290,
 		5
 	],
 	"../pages/login/login.module": [
-		290,
+		289,
 		4
 	],
 	"../pages/nueva-publicacion/nueva-publicacion.module": [
-		291,
+		292,
 		3
 	],
 	"../pages/perfil/perfil.module": [
-		292,
+		291,
 		2
 	],
 	"../pages/profesor/profesor.module": [
@@ -745,10 +745,10 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/areas/areas.module#AreasPageModule', name: 'AreasPage', segment: 'areas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/estudiante/estudiante.module#EstudiantePageModule', name: 'EstudiantePage', segment: 'estudiante', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/habilidades/habilidades.module#HabilidadesPageModule', name: 'HabilidadesPage', segment: 'habilidades', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/inicio/inicio.module#InicioPageModule', name: 'InicioPage', segment: 'inicio', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/nueva-publicacion/nueva-publicacion.module#NuevaPublicacionPageModule', name: 'NuevaPublicacionPage', segment: 'nueva-publicacion', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/inicio/inicio.module#InicioPageModule', name: 'InicioPage', segment: 'inicio', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/perfil/perfil.module#PerfilPageModule', name: 'PerfilPage', segment: 'perfil', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/nueva-publicacion/nueva-publicacion.module#NuevaPublicacionPageModule', name: 'NuevaPublicacionPage', segment: 'nueva-publicacion', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/publicaciones/publicaciones.module#PublicacionesPageModule', name: 'PublicacionesPage', segment: 'publicaciones', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/profesor/profesor.module#ProfesorPageModule', name: 'ProfesorPage', segment: 'profesor', priority: 'low', defaultHistory: [] }
                     ]
